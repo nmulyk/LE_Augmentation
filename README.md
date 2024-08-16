@@ -8,7 +8,7 @@ The LE_Augmentation repository consists of 3 codes: `manufacture_LE.py`, `augmen
 3. Reproject the isolated CFHT light echo to rescale it to match the DTA's scale.
 4. Optional: Adjust the brightness of the light echo. This option is used to test whether a dimmer light echo can be recognized by ALED.
 5. Optional: Randomly change the light echo's orientation and location. This step helps increase the variation in the manufactured images but, due to the pose invariance property of capsule networks, is not expected to linearly improve training.
-6. Change the resolution of the light echo with a Gaussian filter of $\sigma = 1$ to match the DTA image.
+6. Change the resolution of the light echo with a Gaussian filter of $\sigma = 1$ pixel to match the DTA image.
 7. Overlay the light echo onto the DTA image. As the DTA image only contains the sky and artifacts from differencing bright stars, it serves as the background for the new image.
 8. Create a mask for the new light echo by setting all light echo-containing pixels to one and all non-light echo pixels to zero.
 
