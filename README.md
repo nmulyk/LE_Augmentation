@@ -1,4 +1,4 @@
-The LE_Augmentation repository consists of 3 codes: `manufacture_LE.py`, `augment_real_LE.py`, `mask_bright_stars.py`. These codes were originally used to increase the size of and improve our light echo training set for ALED_TF2, found at https://github.com/AmanjotBhullar/ALED_TF2. For a complete description of this work, please see **insert link to thesis**.
+The LE_Augmentation repository consists of 3 codes: `manufacture_LE.py`, `augment_real_LE.py`, `mask_bright_stars.py`. These codes were originally used to increase the size of and improve our light echo training set for ALED_TF2, found at https://github.com/AmanjotBhullar/ALED_TF2. For a complete description of this work, please see https://macsphere.mcmaster.ca/handle/11375/30091.
 
 ### manufacture_LE.py
 `manufacture_LE.py` manufactures Dragonfly Telephoto Array (DTA) light echoes from Canada-France-Hawaii Telescope (CFHT) detections by isolating and overlaying the CFHT light echoes onto DTA images, using the following steps:
